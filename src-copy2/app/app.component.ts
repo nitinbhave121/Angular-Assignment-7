@@ -7,13 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Assign7';
-  random="MArveLLouS InfoSystEm"
-  
-  public toUpper():void{
-    this.random=this.random.toUpperCase();
-  }
 
-  public toLower():void{
-    this.random=this.random.toLowerCase();
+  public fun():String
+  {
+    return "Marvellous Infosystem";
   }
 }
